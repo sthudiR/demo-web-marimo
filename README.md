@@ -10,7 +10,7 @@
 ## Run locally
 ```
 python3 -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt  # includes uv, which marimo needs for the WASM export
 marimo edit app.py        # live editor
 bash scripts/build.sh     # static export to dist/
 python -m http.server --directory dist
