@@ -1,0 +1,9 @@
+{
+  "id": "demo-web-marimo",
+  "title": "Lemonade Lab",
+  "blurb": "Mix a pitcher with sliders and watch sweetness, sourness and a verdict update live, in pure Python running in your browser.",
+  "framework": "marimo (WebAssembly)",
+  "tags": ["python", "reactive", "wasm", "interactive"],
+  "url": "https://sthudir.github.io/demo-web-marimo/",
+  "thumbnail": "thumbnail.svg"
+}

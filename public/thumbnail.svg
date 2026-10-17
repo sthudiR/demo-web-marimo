@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#0f1419"/>
+  <rect x="90" y="150" width="170" height="250" rx="18" fill="none" stroke="#e6edf3" stroke-width="6"/>
+  <rect x="96" y="220" width="158" height="174" rx="14" fill="#f5d547"/>
+  <circle cx="480" cy="140" r="34" fill="#f5d547"/>
+  <rect x="320" y="200" width="380" height="14" rx="7" fill="#243040"/><rect x="320" y="200" width="250" height="14" rx="7" fill="#e56fa8"/><circle cx="570" cy="207" r="14" fill="#e6edf3"/>
+  <rect x="320" y="260" width="380" height="14" rx="7" fill="#243040"/><rect x="320" y="260" width="150" height="14" rx="7" fill="#e56fa8"/><circle cx="470" cy="267" r="14" fill="#e6edf3"/>
+  <text x="510" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Lemonade Lab</text>
+</svg>

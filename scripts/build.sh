@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Export the marimo notebook to a WebAssembly site in dist/ (relative asset URLs, so any /<repo>/ base path works).
+set -euo pipefail
+cd "$(dirname "$0")/.."
+rm -rf dist
+marimo export html-wasm app.py -o dist --mode run --no-show-code
+rm -rf dist/public
+cp public/site.json public/thumbnail.svg dist/
+touch dist/.nojekyll
