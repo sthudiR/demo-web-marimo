@@ -5,5 +5,5 @@ cd "$(dirname "$0")/.."
 rm -rf dist
 marimo export html-wasm app.py -o dist --mode run --no-show-code
 rm -rf dist/public
-cp public/site.json public/thumbnail.svg dist/
+cp public/site.json public/thumbnail.svg public/preview.webm public/preview.mp4 dist/
 touch dist/.nojekyll
