@@ -3,7 +3,23 @@
   "title": "Lemonade Lab",
   "blurb": "Mix a pitcher with sliders and watch sweetness, sourness and a verdict update live, in pure Python running in your browser.",
   "framework": "marimo (WebAssembly)",
-  "tags": ["python", "reactive", "wasm", "interactive"],
+  "tags": [
+    "python",
+    "reactive",
+    "wasm",
+    "interactive"
+  ],
   "url": "https://sthudir.github.io/demo-web-marimo/",
-  "thumbnail": "thumbnail.svg"
+  "thumbnail": "thumbnail.svg",
+  "kind": "piece",
+  "preview": "preview",
+  "metrics": {
+    "size": "27 MB",
+    "ready": "6 s",
+    "writes": "Python",
+    "build": "23 s",
+    "lines": 107
+  },
+  "goodFor": "Python simulations with sliders, no server needed.",
+  "notFor": "Fast first loads (it starts Python in your browser) or multi-page sites."
 }
