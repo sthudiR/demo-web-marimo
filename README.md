@@ -27,3 +27,6 @@ marimo's WASM export uses relative URLs, so it works under `/demo-web-marimo/` w
 
 ## Caveats
 The first load downloads the Pyodide runtime (a few MB) from a CDN, so it needs internet and takes a few seconds. Packages used in `app.py` must be available in Pyodide; this demo uses only the standard library.
+
+## Licence
+Public domain (CC0). Everything here is made up for a demo; use and share it freely. See `LICENSE`.
