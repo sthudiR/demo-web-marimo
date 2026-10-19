@@ -118,7 +118,7 @@ def _(mo):
                 | **The numbers** | 27 MB · ready in about 6 s · builds in 23 s · 107 lines of source · you write Python |
                 | **Good for** | Python simulations with sliders, no server needed |
                 | **Not for** | Fast first loads (it starts Python in your browser) or multi-page sites |
-                | **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-marimo) · [What can I use for…?](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
+                | **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-marimo) · [Pick your tool](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
 
                 <small>Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.</small>
                 """
