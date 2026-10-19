@@ -97,6 +97,7 @@ def _(mo):
                 'allow="encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" '
                 "allowfullscreen></iframe></div>"
             ),
+            mo.md("*Placeholder video: it's here to show how embedding works in this framework.*"),
             mo.md(
                 "---\n[&larr; Back to Hub](https://sthudir.github.io/demo-web-hub/) &nbsp;·&nbsp; "
                 "[Source on GitHub](https://github.com/sthudiR/demo-web-marimo)"
