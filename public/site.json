@@ -14,11 +14,11 @@
   "kind": "piece",
   "preview": "preview",
   "metrics": {
-    "size": "27 MB",
+    "size": "2.8 MB",
     "ready": "6 s",
     "writes": "Python",
-    "build": "23 s",
-    "lines": 107
+    "build": "18 s",
+    "lines": 133
   },
   "goodFor": "Python simulations with sliders, no server needed.",
   "notFor": "Fast first loads (it starts Python in your browser) or multi-page sites."

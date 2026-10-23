@@ -21,7 +21,7 @@ def _(mo):
         number below updates on its own: that is what *reactive* means.
 
         > **Try this:** set lemons to 9 and sugar to 0. How tart can you make it?
-        > The first visit starts Python inside your browser, which takes about 5 seconds.
+        > The first visit starts Python inside your browser, which takes about 6 seconds.
         """
     )
     return
@@ -116,12 +116,12 @@ def _(mo):
                 | | |
                 |---|---|
                 | **Built with** | marimo 0.25 exported to WebAssembly, so Python runs in your browser |
-                | **The numbers** | 27 MB · ready in about 6 s · builds in 23 s · 107 lines of source · you write Python |
+                | **The numbers** | 2.8 MB to load · ready in about 6 s · builds in 18 s · 133 lines of source · you write Python |
                 | **Good for** | Python simulations with sliders, no server needed |
                 | **Not for** | Fast first loads (it starts Python in your browser) or multi-page sites |
                 | **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-marimo) · [Pick your tool](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
 
-                <small>Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.</small>
+                <small>Ready time: median of 5 cold loads on one home connection, 23 Oct 2026. Size is what a first visit downloads. Build time is the median of the last 5 GitHub Actions builds and includes installing the tools.</small>
                 """
             )
         }
